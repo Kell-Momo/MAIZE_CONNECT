@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment
+.env
+
+# Firebase credentials (never commit!)
+firebase_credentials.json
+
+# AI model weights (large files — use DVC or S3 instead)
+ai_models/**/*.tflite
+ai_models/**/*.pt
+ai_models/**/*.h5
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
